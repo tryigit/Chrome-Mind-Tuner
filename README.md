@@ -2,7 +2,7 @@
 
 > Curated by a Google Engineer for the **[t.me/cleverestech](https://t.me/cleverestech)** community of optimizers.
 
-This repository is not merely a list of settings; it is a philosophy. It is a guide to transforming your web browser from a passive tool into a highly-tuned extension of your intent. Our goal is to demystify the browser's experimental core, empowering you to consciously harmonize the delicate balance between raw performance and sustained energy endurance.
+This repository is not merely a list of settings; it is a philosophy. It is a guide to transforming your web browser from a passive tool into a highly-tuned extension of your intent. Our goal is to demystify the browser's experimental core, empowering you to consciously harmonize the delicate balance between raw performance and sustained energy endurance. The settings were prepared according to the Pareto (80/20) Principle.
 
 By following this framework, you will learn to calibrate your digital environment, fostering a state of flow where the technology becomes transparent, leaving only a seamless and responsive experience.
 

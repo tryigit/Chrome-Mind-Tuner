@@ -41,7 +41,7 @@ Many applications use Android's built-in WebView to render web content. Applying
         WebView DevTools
         org.chromium.android_webview.devui.MainActivity
         ```
-3.  **Apply Flags:** This will open a flags interface identical to Chrome's. Apply the same settings from the tables below. A device restart may be required for all changes to take full effect across the system.
+3.  **Apply Flags:** This will open a flags interface identical to Chrome's. Apply the same settings from the tables below. A device restart may be required for all changes to take full effect across the system. [Webview Flags](https://github.com/tryigit/Chrome-Mind-Tuner/tree/main/webview)
 
 ---
 

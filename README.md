@@ -1,4 +1,4 @@
-# Chrome & WebView Performance Framework
+# Chrome & WebView Mind-Tuner: A Framework for Peak Performance
 
 > Curated by a Google Engineer for the **[t.me/cleverestech](https://t.me/cleverestech)** community of optimizers.
 

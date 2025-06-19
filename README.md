@@ -88,7 +88,6 @@ For the experienced practitioner, a direct manifest for rapid calibration.
 
 ```text
 #enable-gpu-rasterization -> Enabled
-#use-angle -> Vulkan
 #enable-vulkan -> Enabled
 #skia-graphite -> Enabled
 #enable-zero-copy -> Enabled

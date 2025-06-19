@@ -1,8 +1,10 @@
-# Chrome/Webview Mind-Tuner: A Framework for Peak Browser Performance
+# Chrome & WebView Mind-Tuner: A Framework for Peak Performance
 
 > Curated by a Google Engineer for the **[t.me/cleverestech](https://t.me/cleverestech)** community of optimizers.
 
-This repository is not merely a list of settings; it is a philosophy. It is a guide to transforming your web browser from a passive tool into a highly-tuned extension of your intent. Our goal is to demystify the browser's experimental core, empowering you to consciously harmonize the delicate balance between raw performance and sustained energy endurance. The settings were prepared according to the Pareto (80/20) Principle.
+This repository is not merely a list of settings; it is a philosophy. It is a guide to transforming your web browser from a passive tool into a highly-tuned extension of your intent. Our goal is to demystify the browser's experimental core, empowering you to consciously harmonize the delicate balance between raw performance and sustained energy endurance.
+
+This framework is built upon the **Pareto Principle (the 80/20 rule)**, focusing exclusively on the vital few settings that deliver 80% of the tangible benefits, while deliberately ignoring the trivial many that only add complexity and risk.
 
 By following this framework, you will learn to calibrate your digital environment, fostering a state of flow where the technology becomes transparent, leaving only a seamless and responsive experience.
 
@@ -19,11 +21,27 @@ Before we begin this journey, it is essential to adopt a mindset of conscious ex
 
 ## The Calibration Method
 
-The path to optimization is a simple, three-step cycle.
+This guide covers both the Chrome browser and the system-wide Android WebView.
 
-1.  **Access the Control Panel:** Open Chrome, navigate to `chrome://flags`.
-2.  **Locate the Variable:** Use the search bar to find the **Flag Identifier** from the tables below.
-3.  **Implement and Observe:** Adjust the setting as recommended, then tap **"Relaunch"**. Pay attention to the subtle shifts in your browser's behavior, feel, and responsiveness.
+### For Google Chrome
+
+1.  **Access the Control Panel:** Open Chrome and navigate to `chrome://flags`.
+2.  **Locate & Implement:** Use the search bar to find the **Flag Identifier** from the tables below, adjust the setting, and tap **"Relaunch"**.
+3.  **Observe:** Pay attention to the subtle shifts in your browser's behavior, feel, and responsiveness.
+
+### For Android System WebView (Advanced)
+
+Many applications use Android's built-in WebView to render web content. Applying these optimizations to WebView can improve performance across your entire system.
+
+1.  **Prerequisite:** You need a tool that can launch hidden activities. We recommend **[ActivityManager by sdex](https://github.com/sdex/ActivityManager/releases)**, a powerful open-source utility.
+2.  **Launch WebView DevTools:**
+    *   Open ActivityManager.
+    *   Search for and launch the following activity:
+        ```
+        WebView DevTools
+        org.chromium.android_webview.devui.MainActivity
+        ```
+3.  **Apply Flags:** This will open a flags interface identical to Chrome's. Apply the same settings from the tables below. A device restart may be required for all changes to take full effect across the system.
 
 ---
 

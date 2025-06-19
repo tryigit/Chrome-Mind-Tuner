@@ -36,7 +36,6 @@ This tier focuses on eliminating latency and creating an immediate, fluid connec
 | Flag Identifier | Recommended State | Rationale & Considerations |
 | :--- | :--- | :--- |
 | ` #enable-gpu-rasterization ` | **Enabled** | The cornerstone of visual fluidity. Delegates rendering tasks from the general-purpose CPU to the specialized GPU, resulting in profoundly smoother scrolling. |
-| ` #use-angle ` | **Vulkan** | A strategic decision to utilize a modern, low-overhead graphics API. This reduces cognitive load on the CPU, freeing it for other tasks and enhancing both speed and efficiency. (Medium consideration: Revert to `Default` if visual anomalies appear on your specific hardware.) |
 | ` #enable-vulkan ` | **Enabled** | Complements the ANGLE decision by ensuring the entire composition pipeline benefits from Vulkan's efficiency. |
 | ` #skia-graphite ` | **Enabled** | Engages a forward-thinking, next-generation rendering engine. It promises superior performance but exists at the frontier of development. (High consideration: This is the primary variable to return to baseline if you perceive any visual instability.) |
 | ` #enable-zero-copy ` | **Enabled** | Eliminates a redundant data transfer step between system and GPU memory. A subtle but meaningful optimization that reduces internal latency. |
